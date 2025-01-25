@@ -1,0 +1,38 @@
+{
+    "name": "modest-dark-theme",
+    "displayName": "Modest Dark Theme",
+    "description": "A sophisticated dark theme inspired by Modest Dark",
+    "version": "0.0.1",
+    "publisher": "user",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/user/modest-dark-theme"
+    },
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Modest Dark",
+                "uiTheme": "vs-dark",
+                "path": "./theme/vscode-modest-dark.json"
+            }
+        ]
+    },
+    "galleryBanner": {
+        "color": "#1E2127",
+        "theme": "dark"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "modest",
+        "one dark",
+        "dark"
+    ]
+}

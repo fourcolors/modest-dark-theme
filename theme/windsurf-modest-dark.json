@@ -1,0 +1,81 @@
+{
+    "name": "Modest Dark",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "colors": {
+        "editor.background": "#0F1219",
+        "editor.foreground": "#abb2bf",
+        "editorLineNumber.foreground": "#495162",
+        "editor.lineHighlightBackground": "#1e242e",
+        "editor.selectionBackground": "#2c313a",
+        "editor.inactiveSelectionBackground": "#1e242e",
+        "editor.lineNumbers": "#495162",
+        "editor.activeLineNumbers": "#abb2bf",
+        "editor.indentGuides": "#1e242e",
+        "editor.activeIndentGuides": "#3e4452",
+        
+        "statusBar.background": "#0F1219",
+        "statusBar.foreground": "#abb2bf",
+        "statusBar.border": "#1e242e",
+        
+        "activityBar.background": "#0F1219",
+        "activityBar.foreground": "#abb2bf",
+        "activityBar.border": "#1e242e",
+        
+        "sideBar.background": "#0F1219",
+        "sideBar.foreground": "#abb2bf",
+        "sideBar.border": "#1e242e",
+        
+        "tab.background": "#0F1219",
+        "tab.activeBackground": "#1e242e",
+        "tab.inactiveBackground": "#0F1219",
+        "tab.activeForeground": "#abb2bf",
+        "tab.inactiveForeground": "#495162",
+        "tab.border": "#1e242e",
+        "tabBar.background": "#0F1219",
+        
+        "panel.background": "#0F1219",
+        "panel.border": "#1e242e",
+        
+        "input.background": "#0F1219",
+        "input.foreground": "#abb2bf",
+        "input.border": "#1e242e",
+        
+        "button.background": "#0F1219",
+        "button.foreground": "#abb2bf",
+        "button.border": "#1e242e",
+        
+        "dropdown.background": "#0F1219",
+        "dropdown.foreground": "#abb2bf",
+        "dropdown.border": "#1e242e",
+        
+        "scrollbar.background": "#0F1219",
+        "scrollbar.thumb": "#1e242e",
+        "scrollbar.thumbHover": "#2c313a"
+    },
+    "semanticTokenColors": {
+        "function": "#5ab0f6",
+        "variable": "#e06c75",
+        "keyword": "#ca72e4",
+        "string": "#97ca72",
+        "comment": "#546178"
+    },
+    "tokenColors": [
+        {
+            "name": "Keywords",
+            "scope": ["keyword", "storage.type"],
+            "settings": {
+                "foreground": "#ca72e4",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": ["entity.name.function"],
+            "settings": {
+                "foreground": "#5ab0f6",
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}
