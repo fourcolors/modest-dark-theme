@@ -1,37 +1,64 @@
 # Modest Dark Theme
 
-A sophisticated dark theme inspired by the Modest Dark Zed theme, designed with a focus on readability and aesthetic elegance.
+A dark theme for VSCode, Cursor, and Windsurf inspired by [Tim Cole's Modest Dark theme](https://github.com/timcole/modest-dark) for Zed editor.
 
 ## Color Palette
 
-- **Background**: Deep charcoal (#121212)
-- **Foreground**: Soft light gray (#E0E0E0)
-- **Primary**: Soft purple (#BB86FC)
-- **Secondary**: Teal accent (#03DAC6)
-- **Syntax Highlighting**:
-  - Keywords: Lavender (#C792EA)
-  - Strings: Muted green (#C3E88D)
-  - Functions: Soft blue (#82AAFF)
-  - Comments: Muted gray (#5C6370)
+The theme uses a carefully selected color palette that emphasizes readability and reduces eye strain:
 
-## Supported Editors
-
-- VSCode
-- Windsurf
+- **Background**: `#0F1219` - Deep, neutral dark background
+- **Text**: `#abb2bf` - Clear, readable light gray
+- **Syntax Colors**:
+  - Keywords: `#ca72e4` (Vibrant Purple, Italic)
+  - Functions: `#5ab0f6` (Bright Blue, Italic)
+  - Strings: `#97ca72` (Soft Green)
+  - Variables: `#e06c75` (Soft Red)
+  - Constants: `#d99a5e` (Warm Orange)
+  - Types/Classes: `#ebc275` (Warm Yellow)
+  - Comments: `#546178` (Muted Gray, Italic)
+  - Operators: `#abb2bf` (Light Gray)
 
 ## Installation
 
-1. Download the theme files
-2. Import into your preferred editor
-3. Enjoy the elegant, dark coding experience!
+### VSCode
 
-## Design Principles
+1. Download the latest `.vsix` file from the [releases page](https://github.com/fourcolors/modest-dark-theme/releases)
+2. Open VSCode
+3. Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux)
+4. Type "Install from VSIX" and select the downloaded file
+5. Press `Cmd+Shift+P` again
+6. Type "Color Theme" and select "Modest Dark"
 
-- Minimal color palette
-- High contrast for readability
-- Soft, non-aggressive colors
-- Consistent semantic highlighting
+### Cursor
+
+1. Follow the same steps as VSCode installation
+2. Cursor is compatible with VSCode extensions, so the theme will work automatically
+
+### Windsurf
+
+1. Create the themes directory if it doesn't exist:
+   ```bash
+   mkdir -p ~/.config/windsurf/themes
+   ```
+2. Download the theme file:
+   ```bash
+   curl -o ~/.config/windsurf/themes/windsurf-modest-dark.json https://raw.githubusercontent.com/fourcolors/modest-dark-theme/main/theme/windsurf-modest-dark.json
+   ```
+3. Open Windsurf settings
+4. Go to the Appearance section
+5. Select "Modest Dark" from the theme dropdown
+
+## Credits
+
+This theme is a port of the excellent [Modest Dark theme](https://github.com/timcole/modest-dark) created by [Tim Cole](https://github.com/timcole) for the Zed editor. All credit for the original color scheme and design goes to Tim.
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+- Report issues
+- Suggest improvements
+- Submit pull requests
 
 ## License
 
-MIT License
+MIT License - See [LICENSE](LICENSE) file for details
