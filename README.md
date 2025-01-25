@@ -1,64 +1,59 @@
 # Modest Dark Theme
 
-A dark theme for VSCode, Cursor, and Windsurf inspired by [Tim Cole's Modest Dark theme](https://github.com/timcole/modest-dark) for Zed editor.
+A sophisticated dark theme for VSCode and Windsurf, inspired by Tim Cole's Modest Dark theme for Zed. Created by fourcolors.
+
+![Screenshot of Modest Dark Theme](./screenshots/typescript-example.png)
+
+## Features
+
+- Beautiful dark color scheme optimized for readability
+- Carefully selected colors for syntax highlighting
+- Consistent styling across VSCode and Windsurf
+- Modern UI with subtle borders and shadows
+- Great TypeScript/JavaScript support with semantic highlighting
 
 ## Color Palette
 
-The theme uses a carefully selected color palette that emphasizes readability and reduces eye strain:
+The theme uses carefully selected colors that work harmoniously together:
 
-- **Background**: `#0F1219` - Deep, neutral dark background
-- **Text**: `#abb2bf` - Clear, readable light gray
-- **Syntax Colors**:
-  - Keywords: `#ca72e4` (Vibrant Purple, Italic)
-  - Functions: `#5ab0f6` (Bright Blue, Italic)
-  - Strings: `#97ca72` (Soft Green)
-  - Variables: `#e06c75` (Soft Red)
-  - Constants: `#d99a5e` (Warm Orange)
-  - Types/Classes: `#ebc275` (Warm Yellow)
-  - Comments: `#546178` (Muted Gray, Italic)
-  - Operators: `#abb2bf` (Light Gray)
+- Background: `#0F1219`
+- Text: `#abb2bf`
+- Keywords: `#ca72e4` (purple, italic)
+- Functions: `#5ab0f6` (blue, italic)
+- Strings: `#97ca72` (green)
+- Variables: `#e06c75` (red)
+- Constants: `#d99a5e` (orange)
+- Types/Classes: `#ebc275` (yellow)
+- Comments: `#546178` (gray, italic)
+- Operators: `#abb2bf` (light gray)
+
+The screenshot above shows these colors in action, demonstrating TypeScript code with imports, types, and service declarations.
 
 ## Installation
 
 ### VSCode
-
-1. Download the latest `.vsix` file from the [releases page](https://github.com/fourcolors/modest-dark-theme/releases)
-2. Open VSCode
-3. Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux)
-4. Type "Install from VSIX" and select the downloaded file
-5. Press `Cmd+Shift+P` again
-6. Type "Color Theme" and select "Modest Dark"
+1. Download the `.vsix` file from the releases
+2. Run `code --install-extension modest-dark-theme-0.0.1.vsix`
+3. Select "Modest Dark" from the theme selector (Cmd+K Cmd+T)
 
 ### Cursor
-
-1. Follow the same steps as VSCode installation
-2. Cursor is compatible with VSCode extensions, so the theme will work automatically
+1. Download the `.vsix` file from the releases
+2. Run `cursor --install-extension modest-dark-theme-0.0.1.vsix`
+3. Select "Modest Dark" from the theme selector
 
 ### Windsurf
-
-1. Create the themes directory if it doesn't exist:
-   ```bash
-   mkdir -p ~/.config/windsurf/themes
-   ```
-2. Download the theme file:
-   ```bash
-   curl -o ~/.config/windsurf/themes/windsurf-modest-dark.json https://raw.githubusercontent.com/fourcolors/modest-dark-theme/main/theme/windsurf-modest-dark.json
-   ```
-3. Open Windsurf settings
-4. Go to the Appearance section
-5. Select "Modest Dark" from the theme dropdown
+1. Copy the `windsurf-modest-dark.json` file to your Windsurf themes directory
+2. Select "Modest Dark" from the theme selector in settings
 
 ## Credits
 
-This theme is a port of the excellent [Modest Dark theme](https://github.com/timcole/modest-dark) created by [Tim Cole](https://github.com/timcole) for the Zed editor. All credit for the original color scheme and design goes to Tim.
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Report issues
-- Suggest improvements
-- Submit pull requests
+- Original Modest Dark theme by Tim Cole for Zed Editor
+- Port to VSCode and Windsurf by fourcolors
 
 ## License
 
-MIT License - See [LICENSE](LICENSE) file for details
+MIT License - see LICENSE file for details
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.

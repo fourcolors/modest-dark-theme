@@ -1,13 +1,16 @@
 {
     "name": "modest-dark-theme",
     "displayName": "Modest Dark Theme",
-    "description": "A sophisticated dark theme inspired by Modest Dark",
+    "description": "A dark theme inspired by Tim Cole's Modest Dark theme for Zed",
     "version": "0.0.1",
-    "publisher": "user",
+    "publisher": "fourcolors",
+    "author": {
+        "name": "fourcolors"
+    },
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/user/modest-dark-theme"
+        "url": "https://github.com/fourcolors/modest-dark-theme"
     },
     "engines": {
         "vscode": "^1.75.0"
@@ -15,6 +18,18 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "dark theme",
+        "modest",
+        "modest dark",
+        "color theme"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#0F1219",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
@@ -23,16 +38,5 @@
                 "path": "./theme/vscode-modest-dark.json"
             }
         ]
-    },
-    "galleryBanner": {
-        "color": "#1E2127",
-        "theme": "dark"
-    },
-    "keywords": [
-        "theme",
-        "dark theme",
-        "modest",
-        "one dark",
-        "dark"
-    ]
+    }
 }
